@@ -45,10 +45,10 @@
 
 **7. Learning preference:**  
 [ ] Jump in and build  
-[x] Step-by-step tutorials  
+[ ] Step-by-step tutorials  
 [ ] Read first, then practice  
 [ ] Learn from mistakes  
-[ ] Other: _______________
+[x] Other: I'm good with anything
 
 ## Course Alignment
 
