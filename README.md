@@ -42,7 +42,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 *Update these links as you complete each tool setup:*
 - **GitHub:** https://github.com/ValdezIzzy ⏳
 - **Workspace (Forked Repo):** https://github.com/ValdezIzzy/DESN368-code-design-workspace-IV ⏳
-- **Figma:** ivaldez6 ⏳
+- **Figma:** https://www.figma.com/@izzy69 ⏳
 - **CodePen:** https://codepen.io/ValdezIzzy ⏳
 - **LiveCode:** https://livecode.com/account/update ⏳
 - **GitHub Student Pack:** https://github.com/settings/education/benefits ⏳  
