@@ -40,12 +40,12 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
-- **GitHub:** [(https://github.com/ValdezIzzy/DESN368-code-design-workspace-IV)] ⏳
-- **Workspace (Forked Repo):** [Add your forked repo link here] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **GitHub:** https://github.com/ValdezIzzy ⏳
+- **Workspace (Forked Repo):** https://github.com/ValdezIzzy/DESN368-code-design-workspace-IV ⏳
+- **Figma:** ivaldez6 ⏳
+- **CodePen:** https://codepen.io/ValdezIzzy ⏳
+- **LiveCode:** https://livecode.com/account/update ⏳
+- **GitHub Student Pack:** https://github.com/settings/education/benefits ⏳  
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
