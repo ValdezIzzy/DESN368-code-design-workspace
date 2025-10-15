@@ -1,0 +1,52 @@
+ body{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a{
+    color: black;
+  }
+  
+  img{
+    width: 500px;
+  }
+
+/* Center content container */
+html body {
+  max-width: 800px; /* change this at will */
+  margin: 0 auto;
+  padding: 20px;
+}
+}
+
+body h1,
+body h2 {
+  color: #fffdeb;
+  background-color: purple;
+  text-align: center;
+}
+}
+
+body ol,
+body ul {
+  color: orange;
+  background-color: black;
+}
+}
+
+body p{
+  color: purple;
+  background-color: orange;
+}
+}
+
+body #footer {
+  color: #fffdeb;
+}
+
+body .main-sections {
+  background-color: brown;
+}
+
+body .header h1{
+  color: black;
+}
