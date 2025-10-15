@@ -1,0 +1,10 @@
+/* Center content container */
+body {
+  max-width: 800px; /* change this at will */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p{
+  font-weight: light;
+}
