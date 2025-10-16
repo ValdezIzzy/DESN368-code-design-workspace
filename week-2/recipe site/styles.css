@@ -48,3 +48,7 @@ body .main-sections {
 body .header h1 {
   color: black !important;
 }
+
+img {
+  image-align: center !important;
+}
