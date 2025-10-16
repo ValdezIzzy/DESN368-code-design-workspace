@@ -1,52 +1,50 @@
- body{
-    font-family: "Roboto", sans-serif;
-  }
-  
-  a{
-    color: black;
-  }
-  
-  img{
-    width: 500px;
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: gray !important;
+  color: white !important;
+}
+
+a {
+  color: black !important;
+}
+
+img {
+  width: 500px !important;
+}
 
 /* Center content container */
 html body {
-  max-width: 800px; /* change this at will */
-  margin: 0 auto;
-  padding: 20px;
-}
+  max-width: 800px !important; /* change this at will */
+  margin: 0 auto !important;
+  padding: 20px !important;
 }
 
 body h1,
 body h2 {
-  color: #fffdeb;
-  background-color: purple;
-  text-align: center;
-}
+  color: #fffdeb !important;
+  background-color: purple !important;
+  text-align: center !important;
 }
 
 body ol,
 body ul {
-  color: orange;
-  background-color: black;
-}
+  color: orange !important;
+  background-color: black !important;
 }
 
-body p{
-  color: purple;
-  background-color: orange;
-}
+body p {
+  color: purple !important;
+  background-color: orange !important;
 }
 
 body #footer {
-  color: #fffdeb;
+  color: #fffdeb !important;
 }
 
 body .main-sections {
-  background-color: brown;
+  background-color: brown !important;
 }
 
-body .header h1{
-  color: black;
+body .header h1 {
+  color: black !important;
 }
