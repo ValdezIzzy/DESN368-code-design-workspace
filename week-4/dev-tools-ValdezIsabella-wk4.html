@@ -550,9 +550,9 @@ capabilities.</p>
         <div class="progress-container">
             <h3>Your Progress</h3>
             <div class="progress-bar">
-                <div class="progress-fill" id="progressBar" style="width: 72.7273%;">73%</div>
+                <div class="progress-fill" id="progressBar" style="width: 100%;">100%</div>
             </div>
-            <p style="margin-top: 10px; color: #666;">Complete: <span id="completedTasks">8</span> / 11 tasks</p>
+            <p style="margin-top: 10px; color: #666;">Complete: <span id="completedTasks">11</span> / 11 tasks</p>
             <p style="margin-top: 8px; color: #28a745; font-size: 0.9em;">💾 Your answers are auto-saved as you type!</p>
         </div>
 
@@ -936,7 +936,7 @@ Lightness at 0% is black, 100% is white, 50% is the "true" color.
             <div class="completion-badge">✓ Completed</div></div>
 
             <!-- Exercise 9: Converting Between Color Formats -->
-            <div class="exercise" data-task="9">
+            <div class="exercise completed" data-task="9">
                 <h3>Exercise 9: Converting Color Formats (Switch to Chrome!)</h3>
                 
                 <div class="important-note" style="background-color: #e3f2fd; border-left: 5px solid #2196f3;">
@@ -970,18 +970,21 @@ Lightness at 0% is black, 100% is white, 50% is the "true" color.
 
                 <div class="answer-box">
                     <label>RGB format:</label>
-                    <input type="text" placeholder="RGB value">
+                    <input type="text" placeholder="RGB value" value="rgb (255, 99, 71)">
                     
                     <label>Hex format (use the color picker!):</label>
-                    <input type="text" placeholder="Hex code">
+                    <input type="text" placeholder="Hex code" value="#ff6347">
                     
                     <label>Named color (if there is one):</label>
-                    <input type="text" placeholder="Named color">
+                    <input type="text" placeholder="Named color" value="tomato">
                     
                     <label>What did you discover about color formats?</label>
-                    <textarea placeholder="What did you learn about color formats?"></textarea>
+                    <textarea placeholder="What did you learn about color formats?">I
+ learned that there are a bunch of ways to access the same color whether
+ it be through hex, rgb, hsl, or even just listing the name. It is 
+interesting that there are so many different ways to do the same thing.</textarea>
 
-                    <button class="check-answer-btn" onclick="checkTask(9)">Check Answer</button>
+                    <button class="check-answer-btn" onclick="checkTask(9)" style="background: rgb(40, 167, 69);" disabled="disabled">✓ Task Complete</button>
                 </div>
 
                 <div class="hint">
@@ -989,14 +992,14 @@ Lightness at 0% is black, 100% is white, 50% is the "true" color.
  = tomato! They're all the same color, just written differently. Use 
 Shift+Click in Chrome to cycle through all the formats!
                 </div>
-            </div>
+            <div class="completion-badge">✓ Completed</div></div>
         </section>
 
         <!-- Bonus Challenge -->
         <section style="background-color: #fff3e0; border-color: #ff9800;">
             <h2><span class="section-number">🌟</span> Bonus Challenge: Edit CSS Live! (Continue in Chrome)</h2>
 
-            <div class="exercise" data-task="10">
+            <div class="exercise completed" data-task="10">
                 <h3>Challenge: Change This Box Using Dev Tools</h3>
                 
                 <div class="instruction">
@@ -1023,15 +1026,17 @@ Shift+Click in Chrome to cycle through all the formats!
 
                 <div class="answer-box">
                     <label>What background color did you choose?</label>
-                    <input type="text" placeholder="Your answer">
+                    <input type="text" placeholder="Your answer" value="darkviolet">
                     
                     <label>What padding value did you try?</label>
-                    <input type="text" placeholder="Your answer">
+                    <input type="text" placeholder="Your answer" value="80px">
                     
                     <label>What was cool or surprising about editing CSS live?</label>
-                    <textarea placeholder="Your reflection"></textarea>
+                    <textarea placeholder="Your reflection">It's 
+surprising how it makes the changes live and shows you what you are 
+doing in the code while changes are being made in developer tools.</textarea>
 
-                    <button class="check-answer-btn" onclick="checkTask(10)">Check Answer</button>
+                    <button class="check-answer-btn" onclick="checkTask(10)" style="background: rgb(40, 167, 69);" disabled="disabled">✓ Task Complete</button>
                 </div>
 
                 <div class="important-note">
@@ -1039,35 +1044,47 @@ Shift+Click in Chrome to cycle through all the formats!
 Developer Tools are temporary! They only last until you refresh the 
 page. To make permanent changes, you need to edit your actual CSS file.
                 </div>
-            </div>
+            <div class="completion-badge">✓ Completed</div></div>
         </section>
 
         <!-- Reflection -->
         <section style="background-color: #e8f5e9; border-color: #4caf50;">
             <h2><span class="section-number">📝</span> Reflection Questions</h2>
             
-            <div class="exercise" data-task="11">
+            <div class="exercise completed" data-task="11">
                 <h3>Think About What You Learned</h3>
                 <div class="answer-box">
                     <label>1. In your own words, explain the box model:</label>
-                    <textarea placeholder="Your explanation"></textarea>
+                    <textarea placeholder="Your explanation">The box 
+model is 4 boxes nested inside one another. From the inside to outside 
+is content, padding, border, and margin. Padding moves things away from 
+content and margin moves everything away from outside boxes and borders.</textarea>
                     
                     <label>2. What's your favorite way to write colors? Why?</label>
-                    <textarea placeholder="Your preference and why"></textarea>
+                    <textarea placeholder="Your preference and why">I 
+think writing the actual name of the colors is easiest so I don't have 
+to remember numbers and letters but hex is my second favorite just 
+because I'm experienced with it.</textarea>
                     
                     <label>3. How do you think Developer Tools will help you as you learn web design?</label>
-                    <textarea placeholder="How will DevTools help you?"></textarea>
+                    <textarea placeholder="How will DevTools help you?">DevTools
+ will help me learn how things work, where things are, and being able to
+ select elements is especially helpful so I can understand how and why 
+it looks the way it does.</textarea>
                     
                     <label>4. What questions do you still have?</label>
-                    <textarea placeholder="Your questions"></textarea>
+                    <textarea placeholder="Your questions">I don't have 
+any questions regarding the box method and colors themselves, but I am 
+curious why some browsers are better at doing certain things in 
+devtools.</textarea>
 
-                    <button class="check-answer-btn" onclick="checkTask(11)">Check Answer</button>
+                    <button class="check-answer-btn" onclick="checkTask(11)" style="background: rgb(40, 167, 69);" disabled="disabled">✓ Task Complete</button>
                 </div>
-            </div>
+            <div class="completion-badge">✓ Completed</div></div>
         </section>
 
         <!-- Completion Certificate -->
-        <section id="completion-certificate" style="background: linear-gradient(135deg, #667eea, #764ba2); border: none; color: white; display: none;">
+        <section id="completion-certificate" style="background: linear-gradient(135deg, rgb(102, 126, 234), rgb(118, 75, 162)); border: medium; color: white; display: block;">
             <div style="text-align: center; padding: 20px;">
                 <h2 style="color: white; font-size: 2.5em; margin-bottom: 20px;">🎓 Certificate of Completion</h2>
                 <p style="font-size: 1.3em; margin-bottom: 30px;">Firefox Developer Tools Practice - Week 4</p>
@@ -1079,7 +1096,7 @@ page. To make permanent changes, you need to edit your actual CSS file.
                         <div style="background: #f0f0f0; border-radius: 15px; padding: 15px; margin-bottom: 20px;">
                             <h4 style="color: #333; margin-top: 0;">Progress</h4>
                             <div class="progress-bar" style="background: #e0e0e0;">
-                                <div class="progress-fill" id="finalProgressBar" style="background: linear-gradient(90deg, #667eea, #764ba2);">100%</div>
+                                <div class="progress-fill" id="finalProgressBar" style="background: linear-gradient(90deg, rgb(102, 126, 234), rgb(118, 75, 162)); width: 100%;">100%</div>
                             </div>
                             <p style="margin-top: 10px; font-size: 1.2em; font-weight: bold; color: #28a745;">
                                 <span id="finalCompletedTasks">11</span> / 11 Tasks Completed ✓
@@ -1104,7 +1121,7 @@ page. To make permanent changes, you need to edit your actual CSS file.
                         </div>
 
                         <div style="margin-top: 20px; font-size: 0.9em; color: #666;">
-                            <p style="margin: 5px 0;">Date Completed: <span id="completionDate"></span></p>
+                            <p style="margin: 5px 0;">Date Completed: <span id="completionDate">Wednesday, October 22, 2025</span></p>
                             <p style="margin: 5px 0;">Course: DESN368 Web Design 1 - Week 4</p>
                         </div>
                     </div>
