@@ -1,8 +1,7 @@
 # 🎉 Welcome to DESN368 CODE + DESIGN ONE!
 Isabella Valdez 09/24/25
 
-🌐 **Live Site:** https://desn368-portfolio-iv.netlify.app/
-
+🌐 **Live Site:** https://valdezizzy.github.io/DESN368-code-design-workspace/
 This repository contains my weekly projects for DESN368 as I learn HTML, CSS, and web development.
 
 **Welcome to DESN368 Web Design!**  
