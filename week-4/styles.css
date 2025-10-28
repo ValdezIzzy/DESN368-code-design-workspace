@@ -5,6 +5,13 @@ margin: 0;
 padding: 0;
 } */
 
+html, body {
+  background-color: #faf8f5;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -33,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -52,7 +59,7 @@ section {
 footer {
   text-align: center;
   font-size: 14px;
-    color: #Faf8f5;
+  color: #Faf8f5;
   background-color: #0E1C2F;
   margin-top: 32px;
 }
@@ -88,7 +95,6 @@ p {
 }
 
 blockquote {
-  font-style: italic;
   font-family: "Playfair Display", serif;
   text-align: center;
   margin: 32px auto;
@@ -96,7 +102,8 @@ blockquote {
   max-width: 600px;
   color: #Faf8f5;
   background-color: #0E1C2F;
-  padding:45px;
+  padding:25px;
+  border:#E2A93B 8px solid;
 }
 
 cite {
@@ -115,18 +122,14 @@ article {
   background-color: #Faf8f5;
 }
 
-#bottom-image {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  align-items: center;
-  max-width: auto;
-  height: 100px;
+figure img {
   display: block;
+  max-width: 350px;
+  height: auto;
   margin: 0 auto;
   border-color: #E2A93B;
   border-width: 8px;
   border-style: solid;
-
 }
 
 figure {
@@ -134,9 +137,7 @@ figure {
   height: auto;
   display: block;
   margin: 0 auto;
-  border-color: #E2A93B;
-  border-width: 8px;
-  border-style: solid;
+  padding-bottom: 20px;
 }
 
 figcaption {
@@ -151,6 +152,8 @@ figcaption {
   font-size: 14px;
   color: #Faf8f5;
   background-color: #0E1C2F;
+  padding: 35px 0;
+  text-align: center;
 }
 
 .timeline-item {
