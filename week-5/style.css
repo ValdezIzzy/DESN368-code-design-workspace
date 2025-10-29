@@ -1,0 +1,24 @@
+body {
+  font-size: 15px;
+  line-height: 22px;
+  padding-left: 550px;
+  padding-right: 550px;
+}
+
+.subheading {
+  font-size: 1.5em;
+  font-family: cursive;
+  padding-bottom: .15em;
+  line-height: 1.25em;
+}
+
+.chapter {
+  font-family: cursive;
+  font-size: 3em;
+  padding-bottom: .5em;
+  line-height: 1em;
+}
+
+p {
+  font-family: Georgia;
+}
