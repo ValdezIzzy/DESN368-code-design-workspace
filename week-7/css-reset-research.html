@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Reset Research</title>
+  <link rel="stylesheet" href="styles/reset.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>CSS Reset Research</h1>
+  </header>
+
+  <main>
+  <div class="text">
+    <section id="historical-foundation">
+      <h2>Historical Foundation - Eric Meyer, 2007</h2>
+      <h3>What browser inconsistencies bothered developers enough to create this?</h3>
+      <p>
+        Because Internet Explorer does not support inherit, a reset was created in order to get all browsers on the same page and create consistencies between the same web pages or sites on different browsers. The reset allows everything to be set specifically and not relying on the browsers default settings.
+      </p>
+    </section>
+
+    <section id="modern-evolution">
+      <h2>Modern Evolution - Josh Comeau, 2025</h2>
+      <h3>Why does Josh modify or reject parts of Meyer's approach?</h3>
+      <p>
+        Josh keeps and works with the browsers default settings but makes sure to add his own to make it more accessible, pretty, and easier to work with. He uses inherit in the same way by applying it to font but he also has multiple other additions that make it more modern and apply it to modern web browsers such as antialiased, overflow wrap, and using images and video among other assets.
+      </p>
+    </section>
+
+    <section id="wider-landscape">
+      <h2>Wider Landscape - Jeff Starr & Others</h2>
+      <ul>
+        <li>
+          <strong>A (more) Modern CSS Reset</strong>, Andy Bell, 2023<br>
+          <a href="https://piccalil.li/blog/a-more-modern-css-reset/" target="_blank">https://piccalil.li/blog/a-more-modern-css-reset/</a>
+        </li>
+        <li>
+          <strong>Making the case for CSS normalize and reset stylesheets in 2023</strong>, Matt Brictson<br>
+          <a href="https://mattbrictson.com/blog/css-normalize-and-reset" target="_blank">https://mattbrictson.com/blog/css-normalize-and-reset</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="critical-questions">
+      <h2>Critical Questions</h2>
+
+      <article>
+        <h3>Why reset at all? (What problem does it solve?)</h3>
+        <p>
+          A CSS reset is used because every browser has its own default styles and those differences can create inconsistencies across everything. By resetting everything, designers can build from the same universal foundation instead of having to individually fight whichever browser's quirks. It solves the problems of uneven margins, heading differences, and other weird styling defaults.
+        </p>
+      </article>
+
+      <article>
+        <h3>Why Josh's version over Eric's? (Be specific about 2–3 differences)</h3>
+        <p>
+          Josh’s version improves on Eric's version by being more modern and intentional. Eric stripped everything down to zero so developers had to rebuild everything from scratch while Josh’s reset is softer and keeps some of the useful things like system fonts while simultaneously normalizing the rest. He also adds small improvements like box sizing, font rendering, and better accessibility.
+        </p>
+      </article>
+
+      <article>
+        <h3>How do you actually use these? (Link tag? Import? Inline?)</h3>
+        <p>
+          Using the reset is easy since it is linked in the HTML like any stylesheet. Link the reset.css file in the head of the document.
+        </p>
+      </article>
+
+      <article>
+        <h3>What's a CSS boilerplate? (vs. a reset)</h3>
+        <p>
+          A boilerplate gives the starting structure that gives common elements like typography, buttons, and layout while a reset you have to build up a lot more.
+        </p>
+      </article>
+
+      <article>
+        <h3>Why use a boilerplate? (When does it help/hurt?)</h3>
+        <p>
+          A boilerplate would help when a file needs to be developed quickly with consistency across pages which saves time. It can hurt if you don’t understand what’s in there and can’t change it to fit the design.
+        </p>
+      </article>
+
+      <article>
+        <h3>Why is Normalize.css different from resets? (Philosophy shift)</h3>
+        <p>
+          Normalize.css is different from resets because it doesn’t try to erase browser styles and instead works with them. It makes small adjustments to bring all the browsers' different styles of understanding closer together to make things more cohesive and keep their useful defaults intact. The philosophy shift focuses on refinement rather than erasing everything and starting at zero. Normalize keeps the good and alters the bad which creates smoother design systems without starting from scratch.
+        </p>
+      </article>
+    </section>
+  </div>
+  </main>
+</body>
+</html>
