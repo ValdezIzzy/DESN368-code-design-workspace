@@ -430,7 +430,7 @@ div p {
 
 #feature-list ul {
   display: flex;
-  padding-left: 17rem;
+  justify-content: center;
   font-size: 1.75rem;
   gap: 10rem;
   margin-top: 3rem;
@@ -802,6 +802,7 @@ tr:hover {
     font-size: 1rem;
     padding-left: 0;
     padding-right: 0;
+    align-self: center;
   }
 
   /* FEATURE LIST */
@@ -862,6 +863,7 @@ tr:hover {
     width: 100%;
     padding: 1rem 1rem;
     font-size: 1.1rem;
+    margin-bottom: -2.75rem;
   }
 
   ::placeholder {
