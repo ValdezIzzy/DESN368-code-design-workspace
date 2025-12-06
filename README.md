@@ -11,7 +11,7 @@ Instructor: Travis Masingale
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
 - **[View Live Portfolio](https://valdezizzy.github.io/DESN368-code-design-workspace/)**
-- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
+- **[View Learning Log](https://valdezizzy.github.io/DESN368-code-design/learning-log.html)** — Weekly progress & exercises
 
 ---
 
@@ -82,7 +82,7 @@ This is the magnum opus of this quarter, a site that advertises a bass guitar wi
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+[→ Read Full Reflection on Portfolio Site](https://valdezizzy.github.io/DESN368-code-design/reflection.html)
 
 ---
 
