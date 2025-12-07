@@ -82,7 +82,7 @@ This is the magnum opus of this quarter, a site that advertises a bass guitar wi
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://valdezizzy.github.io/DESN368-code-design/reflection.html)
+[→ Read Full Reflection on Portfolio Site](https://valdezizzy.github.io/DESN368-code-design-workspace/reflection.html)
 
 ---
 

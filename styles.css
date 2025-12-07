@@ -62,7 +62,6 @@ h2 {
     color: var(--white);
     margin-top: 4rem;
     margin-bottom: 0.5rem;
-    margin-left: 10rem;
 }
 
 p {
@@ -95,6 +94,10 @@ a {
 section {
   margin-bottom: 12rem;
   position: relative;
+}
+
+.reflection h2 {
+  margin-left: 10rem;
 }
 
 
