@@ -11,7 +11,7 @@ Instructor: Travis Masingale
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
 - **[View Live Portfolio](https://valdezizzy.github.io/DESN368-code-design-workspace/)**
-- **[View Learning Log](https://valdezizzy.github.io/DESN368-code-design/learning-log.html)** — Weekly progress & exercises
+- **[View Learning Log](./learning-log.html)** — Weekly progress & exercises
 
 ---
 
@@ -33,19 +33,19 @@ For my portfolio, I pursued a grunge, punk aesthetic.
 
 **The Recipe**  
 This was a webpage were I made a recipe and it was the first time I used CSS styling.
-[View Project](./week-2/recipe%20site/recipe.html)
+[View Project](https://valdezizzy.github.io/DESN368-code-design-workspace/week-2/recipe%20site/recipe.html)
 
 **Tribute Site**  
 This is a webpage dedicated to the late Robin Williams where I used styling to make a webpage look good off of a previous design made in Figma.
-[View Project](./week-4/tribute-robinwilliams-iv-f25.html)
+[View Project](https://valdezizzy.github.io/DESN368-code-design-workspace/week-4/tribute-robinwilliams-iv-f25.html)
 
 **Field Guide**  
 This is an interactive game guide for Dead By Daylight where I learned the nuances of coding such as navigation bars and links to separate pages.
-[View Project](./week-6/dbd-game-guide.html)
+[View Project](https://valdezizzy.github.io/DESN368-code-design-workspace/week-6/dbd-game-guide.html)
 
 **Product Landing Page**  
 This is the magnum opus of this quarter, a site that advertises a bass guitar with lots of styling, transitions, and animations.
-[View Project](./week-10/grungebass.html)
+[View Project](https://valdezizzy.github.io/DESN368-code-design-workspace/week-10/grungebass.html)
 
 ---
 
